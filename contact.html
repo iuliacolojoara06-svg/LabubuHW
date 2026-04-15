@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Junior Dev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>Colaborare & Contact</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="data.html">MTB</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section>
+            <h2>Trimite-mi un mesaj</h2>
+            <p>Cauți un Junior Dev dedicat? Completează formularul de mai jos.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Date de Contact</legend>
+                    
+                    <div class="form-group">
+                        <label for="nume">Nume complet:</label>
+                        <input type="text" id="nume" name="nume" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresa de email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subiect">Subiect/Topic:</label>
+                        <select id="subiect" name="subiect">
+                            <option value="angajare">Ofertă Angajare</option>
+                            <option value="freelance">Proiect Freelance</option>
+                            <option value="salut">Doar un salut</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mesaj">Mesajul tău:</label>
+                        <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Trimite Mesajul</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Iulia Colojoară - Proiect Web Design</p>
+    </footer>
+</body>
+</html>
